@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Newsletter from './Newsletter';
 import Achievement from './Achievement';
+import Premium from './Premium';
 
 function App() {
   return (
@@ -19,44 +20,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="products-container">
-        <h2 className="products-title">Our Premium Collection</h2>
-        <div className="product-boxes">
-          <div className="product-box">
-            <div className="box-content">
-              <h3 className="product-title">Tropical Suit</h3>
-            </div>
-          </div>
-          <div className="product-box">
-            <div className="box-content">
-              <h3 className="product-title">Tropical Suit</h3>
-            </div>
-          </div>
-          <div className="product-box">
-            <div className="box-content">
-              <h3 className="product-title">Tropical Suit</h3>
-            </div>
-          </div>
-          <div className="product-box">
-            <div className="box-content">
-              <h3 className="product-title">Tropical Suit</h3>
-            </div>
-          </div>
-          <div className="product-box">
-            <div className="box-content">
-              <h3 className="product-title">Tropical Suit</h3>
-            </div>
-          </div>
-          <div className="product-box">
-            <div className="box-content">
-              <h3 className="product-title">Tropical Suit</h3>
-            </div>
-          </div>
-        </div>
-        <div div className="button-container">
-          <button className="product-button">Find Out More</button>
-        </div>
-      </section>
+      <Premium/>
       <section className="products-container">
         <h2 className="products-title">Our Premium Collection</h2>
         <div className="product-boxes">

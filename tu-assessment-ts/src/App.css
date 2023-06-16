@@ -64,7 +64,7 @@
   margin-right: 5px;
 }
 
-/* body 1 */
+/* Premium */
 
 .b1container {
   background-color: #ffffff;
@@ -144,11 +144,27 @@
   margin-top: 20px;
 }
 
-.action-button {
+.product-button {
   padding: 10px 20px;
   background-color: #f0f0f0;
   border: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 24px;
+  gap: 10px;
+  background: #F86338;
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color:#ffffff;
 }
 
 /* Brand's Story */
@@ -321,5 +337,13 @@
   text-align: center;
   font-size: 12px;
   margin-top: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142D;
+
 }
 
