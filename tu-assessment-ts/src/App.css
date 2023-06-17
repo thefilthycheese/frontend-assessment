@@ -312,8 +312,13 @@
 }
 
 .footer-title{
-  font-size: 24px;
-  font-weight: bold;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0.003em;
+  color: #F86338;
 }
 
 .footer-code {
@@ -347,3 +352,187 @@
 
 }
 
+/* Newsletter */
+
+.newsletter-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.newsletter-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #11142D;
+}
+
+.newsletter-text {
+  margin-top: 16px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #9A9AB0;
+}
+
+.newsletter-input {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.newsletter-input input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-input button {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 0
+}
+
+/* Checkout */
+
+.checkout-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.checkout-info {
+  flex-grow: 1;
+  padding-right: 20px;
+}
+
+.checkout-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-size {
+  margin-top: 5px;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.quantity-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-weight: bold;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.product-section {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+}
+
+.checkout-aside {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.coupon-section {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.coupon-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.coupon-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.coupon-input input {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.apply-button {
+  padding: 5px 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.order-summary {
+  text-align: center;
+}
+
+.summary-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.summary-text {
+  margin-top: 5px;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: #ffffff;
+}

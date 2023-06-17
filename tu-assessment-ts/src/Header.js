@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         <nav className="toolbar">
           <ul className="tabs">
             <li>
-              <a to="/Shop">Shop</a>
+              <a href="/Shop">Shop</a>
             </li>
             <li>
               <a href="/promo">Promo</a>
