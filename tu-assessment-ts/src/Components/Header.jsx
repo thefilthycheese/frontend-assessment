@@ -1,7 +1,8 @@
 import React from 'react';
 import './Components.css';
-import imgc from './images/header images/phone.svg'
-import imgs from './images/header images/truck.svg'
+import imgc from './images/header images/phone.svg';
+import imgs from './images/header images/truck.svg';
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -35,8 +36,10 @@ const Header = () => {
             </li>
           </ul>
           <div className="search-bar">
-            <input type="text" placeholder="Search" />
-            <button>Search</button>
+            <input type="text" className="search-input" placeholder="Search What you need" />
+            <button type="submit" className="search-button">
+              <srcbtn className="search-icon" />
+            </button>
           </div>
           <ul className="tabs2">
             <li>

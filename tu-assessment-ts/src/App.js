@@ -12,6 +12,7 @@ import Top from './Components/Top';
 import Checkout from './Components/Checkout';
 import Carousel from './Carousel';
 import Articles from './Components/Articles';
+import ProdList from './Components/ProdList';
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
       <section>
         <div className="b1container">
           <div className="content">
-              <h2 className="bold-text">Your Premium Sound, Unplugged!</h2>
+              <h2 className="bold-text">Home Shopping, Your Choice!</h2>
               <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
           </div>
         </div>
       </section>
@@ -36,6 +37,7 @@ function App() {
       <Footer/>
       <Checkout/>
       <Carousel/>
+      <ProdList/>
     </div>
   );
 }
