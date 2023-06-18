@@ -1,13 +1,24 @@
 import React from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
+import imgc from './images/header images/phone.svg'
+import imgs from './images/header images/truck.svg'
 
 const Header = () => {
   return (
     <header className="App-header">
+      <div className="h1-container">
         <div className="logo-container">
-          <span className="logo">Dealerz.</span>
+            <span className="logo">Dealerz.</span>
         </div>
+        <div className="sc-container">
+          <img src={imgc} alt="icon"/>
+          <span className="header-call">Call Center</span>
+          <img src={imgs} alt="icon"/>
+          <span className="header-ship">Shipping & Returns</span>
+        </div>
+      </div>
+          
+          
         <nav className="toolbar">
           <ul className="tabs">
             <li>
@@ -27,6 +38,20 @@ const Header = () => {
             <input type="text" placeholder="Search" />
             <button>Search</button>
           </div>
+          <ul className="tabs2">
+            <li>
+              <a href="/Shop">wishlist</a>
+            </li>
+            <li>
+              <a href="/Shop">cart</a>
+            </li>
+            <li>
+              <a href="/Shop">profile</a>
+            </li>
+            <li>
+              <a href="/Shop">alerts</a>
+            </li>
+          </ul>
         </nav>
       </header>
   );

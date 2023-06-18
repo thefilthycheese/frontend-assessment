@@ -10,7 +10,7 @@ import img5 from './images/Our Achievements/Combined Shape-5.svg'
 const Achievement = () => {
   return (
     <section className="our-container">
-        <h2 className="our-title">Our Achievements</h2>
+        <h2 className="our-title">Our Achievement</h2>
         <div className="our-gallery">
           <img src={img0} alt="image 1"/>
           <img src={img1} alt="Image 2" />
