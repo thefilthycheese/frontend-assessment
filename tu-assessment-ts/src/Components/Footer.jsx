@@ -1,21 +1,22 @@
 import React from 'react';
-import './App.css';
+import './Components.css';
+import img from './images/Footer/Container.svg'
 
 const Footer = () => {
   return (
     <footer className="footer-container">
         <div className="footer-content">
-          <div className="footer-square"></div>
+          <div className="footer-image"></div>
           <div className="footer-text">
             <h2 className="footer-title">Dealerz.</h2>
             <p className="footer-text">Privacy Policy</p>
             <p className="footer-text">Terms and Condition</p>
           </div>
           <div className="footer-socials">
-            <img src="" alt="yt"/>
-            <img src="" alt="fb"/>
-            <img src="" alt="tw"/>
-            <img src="" alt="ig"/>
+            <img src={img} alt="yt"/>
+            <img src={img} alt="fb"/>
+            <img src={img} alt="tw"/>
+            <img src={img} alt="ig"/>
           </div>
         </div>
         <p className="copyright">

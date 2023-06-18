@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Components.css';
 import imgc from './images/header images/phone.svg'
 import imgs from './images/header images/truck.svg'
 
@@ -11,9 +11,9 @@ const Header = () => {
             <span className="logo">Dealerz.</span>
         </div>
         <div className="sc-container">
-          <img src={imgc} alt="icon"/>
+          <img className="imgc" src={imgc} alt="icon"/>
           <span className="header-call">Call Center</span>
-          <img src={imgs} alt="icon"/>
+          <img className="imgs" src={imgs} alt="icon"/>
           <span className="header-ship">Shipping & Returns</span>
         </div>
       </div>

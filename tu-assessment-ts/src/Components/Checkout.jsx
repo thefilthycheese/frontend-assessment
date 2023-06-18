@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css';
+import './Components.css';
+import { Breadcrumbs, Link } from '@mui/material';
 
 const Checkout = () => {
+
   return (
     <div className="checkout-container">
         <div className="checkout-info">
+          
           <h2 className="checkout-title">My Cart</h2>
           <ul className="product-list">
             <li className="product-item">
@@ -31,10 +34,9 @@ const Checkout = () => {
           </div>
           <div className="order-summary">
             <h3 className="summary-title">Cart Totals</h3>
-            <p className="summary-text">Line 1</p>
-            <p className="summary-text">Line 2</p>
-            <p className="summary-text">Line 3</p>
-            <p className="summary-text">Line 4</p>
+            <p className="summary-text">Subtotal</p>
+            <p className="summary-text">Shipping</p>
+            <p className="summary-text">Total</p>
             <button className="checkout-button">Checkout</button>
           </div>
         </aside>

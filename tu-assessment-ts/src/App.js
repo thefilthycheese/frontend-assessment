@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
-import Footer from './Footer';
-import Header from './Header';
-import Newsletter from './Newsletter';
-import Achievement from './Achievement';
-import Premium from './Premium';
-import Feedback from './Feedback';
-import Story from './Story';
-import Top from './Top';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import Newsletter from './Components/Newsletter';
+import Achievement from './Components/Achievement';
+import Premium from './Components/Premium';
+import Feedback from './Components/Feedback';
+import Story from './Components/Story';
+import Top from './Components/Top';
+import Checkout from './Components/Checkout';
+import Carousel from './Carousel';
+import Articles from './Components/Articles';
 
 function App() {
   return (
@@ -28,8 +31,11 @@ function App() {
       <Story/>
       <Achievement/>
       <Feedback/>
+      <Articles/>
       <Newsletter/>
       <Footer/>
+      <Checkout/>
+      <Carousel/>
     </div>
   );
 }

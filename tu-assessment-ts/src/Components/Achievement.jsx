@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Components.css';
 import img0 from './images/Our Achievements/Combined Shape.svg'
 import img1 from './images/Our Achievements/Combined Shape-1.svg'
 import img2 from './images/Our Achievements/Combined Shape-2.svg'
