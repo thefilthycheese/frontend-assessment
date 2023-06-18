@@ -70,10 +70,6 @@ const ProdList = () => {
             <header className="App-header">
             </header>
             <div className="prodlist-container">
-                <div className="article-header">
-                <h2>Get Better Insight from Our Articles</h2>
-                <span className="see-more">See More</span>
-                </div>
                 <div className="articles">
                 {products.map((product) => (
                     <div className="article" key={product.id}>

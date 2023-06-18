@@ -38,8 +38,8 @@ const Articles = () => {
       </header>
       <div className="article-container">
         <div className="article-header">
-          <h2>Get Better Insight from Our Articles</h2>
-          <span className="see-more">See More</span>
+          <h2 className="article-title">Get Better Insights<br/> from Our Articles</h2>
+          <h5 className="see-more">See More</h5>
         </div>
         <div className="articles">
           {articles.map((article) => (

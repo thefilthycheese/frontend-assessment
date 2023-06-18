@@ -2,6 +2,10 @@
   text-align: center;
   background-color: #E5E5E5;
 }
+.Shop{
+  text-align: center;
+  background-color: #E5E5E5;
+}
 /* Header 1*/
 .h1-container {
   display: flex;
@@ -97,9 +101,12 @@
   margin-right: 5px;
 }
 
-/* Premium */
+/* banner */
 
 .b1container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   background-color: #ffffff;
   padding:20px;
 }
@@ -127,6 +134,32 @@
   letter-spacing: 0.005em;
   color: #515151;
 }
+
+
+.banner-button {
+  width:fit-content;
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 18px 24px;
+  gap: 10px;
+  background: #F86338;
+  border-radius: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color:#ffffff;
+}
+
+
+/* Premium */
 
 .products-container {
   padding: 20px;

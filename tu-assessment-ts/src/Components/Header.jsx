@@ -2,7 +2,10 @@ import React from 'react';
 import './Components.css';
 import imgc from './images/header images/phone.svg';
 import imgs from './images/header images/truck.svg';
-import {Link} from "react-router-dom";
+import imgbell from './images/header images/bell.svg';
+import imgcart from './images/header images/cart.svg';
+import imgfav from './images/header images/favorite.svg';
+import imgprof from './images/header images/profile.svg';
 
 const Header = () => {
   return (
@@ -43,16 +46,16 @@ const Header = () => {
           </div>
           <ul className="tabs2">
             <li>
-              <a href="/Shop">wishlist</a>
+              <img className="imgc" src={imgfav} alt="icon"/>
             </li>
             <li>
-              <a href="/Shop">cart</a>
+              <img className="imgc" src={imgcart} alt="icon"/>
             </li>
             <li>
-              <a href="/Shop">profile</a>
+              <img className="imgc" src={imgbell} alt="icon"/>
             </li>
             <li>
-              <a href="/Shop">alerts</a>
+              <img className="imgc" src={imgprof} alt="icon"/>
             </li>
           </ul>
         </nav>

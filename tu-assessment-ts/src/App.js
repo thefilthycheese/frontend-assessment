@@ -9,10 +9,8 @@ import Premium from './Components/Premium';
 import Feedback from './Components/Feedback';
 import Story from './Components/Story';
 import Top from './Components/Top';
-import Checkout from './Components/Checkout';
 import Carousel from './Carousel';
 import Articles from './Components/Articles';
-import ProdList from './Components/ProdList';
 
 function App() {
   return (
@@ -24,7 +22,9 @@ function App() {
               <h2 className="bold-text">Home Shopping, Your Choice!</h2>
               <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+              
           </div>
+          <button className="banner-button">Find Out More</button>
         </div>
       </section>
       <Premium/>
@@ -35,9 +35,6 @@ function App() {
       <Articles/>
       <Newsletter/>
       <Footer/>
-      <Checkout/>
-      <Carousel/>
-      <ProdList/>
     </div>
   );
 }

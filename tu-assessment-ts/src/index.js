@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Cart from './Cart';
+import Shop from './Shop';
+import Gallery from './Gallery';
+import Product from './Product';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Cart />
+    <Shop/>
   </React.StrictMode>
 );
 

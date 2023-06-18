@@ -9,9 +9,12 @@ const Newsletter = () => {
             <h2 className="newsletter-title">Join Our News Letters</h2>
             <p className="newsletter-text">Leverage agile frameworks to provide a robust synopsis for high 
             level overviews. Iterative approaches to corporate strategy foster </p>
-            <div className="newsletter-mailput"></div>
-              <input type="email" placeholder="Insert your mail here"></input>
-              <button className="newsletter-button">Send</button>
+            <div className="search-bar">
+              <input type="text" className="search-input" placeholder="Insert your email here" />
+              <button type="submit" className="search-button">
+                <srcbtn className="search-icon" />
+              </button>
+          </div>
           </div>
         </div>
     </section>
